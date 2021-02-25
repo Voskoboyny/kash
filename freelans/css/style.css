@@ -183,6 +183,34 @@ display: inline-block;
     margin-top: 20px;
 }
 .contact_section{
+     font-family: 'Roboto', sans-serif;
     color:#fff;
+    text-align: center;
+}
+.contact_title{
+    
+    font-size: 50px;
+}
+.contact_left, .contact_right{
+    max-width: 190px;
+    min-height: 150px;
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+}
+
+.contact_link:before {
+    font-family: 'icomoon';
+    content: "\ea92";
+    color: #fff;
+    position: absolute;
+    margin-top: 30px;
+    
+}
+.instagram{
+    height: 10px;
+    width: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
 }
 
